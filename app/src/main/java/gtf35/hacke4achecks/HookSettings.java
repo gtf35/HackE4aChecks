@@ -2,8 +2,8 @@ package gtf35.hacke4achecks;
 
 public class HookSettings {
     /******************应用设置************************/
-    public final static String E4aPackageName = "com.step.sport";
-    public final static String E4aApplicationName = "com.baidu.protect.StubApplication";
+    public final static String E4aPackageName = "请替换为要绕过的应用的包名";
+    public final static String E4aApplicationName = "请替换为要绕过的应用的Application类名";
 
 
     /******************Hook设置************************/
