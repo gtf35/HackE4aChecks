@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hacke4achecks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="老有人找我脱一些E4a程序的壳，究其原因就是要抓个接口，罢了罢了，随手写个xp一劳永逸。请执行反编译修改HookSettings类下的E4aPackageName为包名，E4aApplicationName为application名，然后重新编译安装激活，打开对应程序即可。可去除E4a程序的部分VPN，Hook，Root，模拟器，双开检测" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+    </application>
+</manifest>
